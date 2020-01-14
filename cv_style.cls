@@ -28,7 +28,7 @@
 \vspace{5mm}
 }
 \newcommand{\sectionrule}{\noindent\hfil\rule{\textwidth}{.6pt}\hfil 
-\vspace{2mm}
+\vspace{-.5mm}
 }
 \newenvironment{ditem}{
 \begin{itemize}
@@ -51,10 +51,10 @@
 \newcommand{\sectionheading}[1]{
 \begin{tcolorbox}[lowerbox=invisible,colback=gray!20]
 {
-\fontfamily{cmr}\selectfont
-\textsc{#1}
+\textsf{\textsc{#1}}
 }
 \end{tcolorbox}
+\vspace{-1mm}
 }
 \newcommand{\subsectionheading}[1]{\noindent {\sc{#1}} 
 \\
@@ -66,7 +66,10 @@
 %\newcommand{\myname}{\textbf{Kumar, A.}}
 % so that you don't have to keep typing in \textbf{your name} for every paper you cite. 
 
-\newcommand{\desc}[4]{\noindent\textbf{#1} \hfill{#2}\\ \textit{#3}\hfill {#4}\\}
+\newcommand{\desc}[4]{\noindent\textbf{#1} \hfill{#2}\\
+\begin{footnotesize}
+	\textcolor{gray!90}{\textit{#3}\hfill {#4}}
+\end{footnotesize}\\}
 
 
 

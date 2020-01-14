@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2018.2.28)  10 OCT 2019 00:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2018.2.28)  13 JAN 2020 23:05
 entering extended mode
 **./cv_lyndon.tex
 (cv_lyndon.tex
@@ -8,8 +8,8 @@ Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 Document Class: cv_style 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -79,9 +79,12 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
+(C:\Users\chanlynd\AppData\Roaming\MiKTeX\2.9\tex\generic\iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(C:\Users\chanlynd\AppData\Roaming\MiKTeX\2.9\tex\generic\iftex\iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
@@ -477,7 +480,7 @@ LaTeX Font Info:    Try loading font information for U+mvs on input line 13.
 
 (C:\Users\chanlynd\AppData\Roaming\MiKTeX\2.9\tex\latex\marvosym\umvs.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 13.
+(Font)              <10.95> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -488,54 +491,64 @@ LaTeX Font Info:    Try loading font information for U+fontawesometwo on input l
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <12> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 17.
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 16.
 
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 19.
-LaTeX Font Info:    No file OMScmss.fd. on input line 19.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 18.
+LaTeX Font Info:    No file OMScmss.fd. on input line 18.
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 19.
+(Font)              for symbol `textbullet' on input line 18.
 
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <12> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 19.
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <9> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 26.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 28.
 
 [1
 
-{C:/Users/chanlynd/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
+{C:/Users/chanlynd/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Missing character: There is no â in font cmss10!
+Missing character: There is no € in font cmss10!
+Missing character: There is no “ in font cmss10!
+ [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
  (cv_lyndon.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `cv_lyndon.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 16305 strings out of 493333
- 301529 string characters out of 3136599
- 363320 words of memory out of 3000000
- 19603 multiletter control sequences out of 15000+200000
- 9150 words of font info for 32 fonts, out of 3000000 for 9000
+ 16359 strings out of 493333
+ 302274 string characters out of 3136599
+ 364599 words of memory out of 3000000
+ 19648 multiletter control sequences out of 15000+200000
+ 9810 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,5n,73p,954b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/chanlynd/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/chanlynd/AppDat
 a/Roaming/MiKTeX/2.9/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mtt12.pfb><C:/Users/chanlynd/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv_lyndon.pdf (2 pages, 106847 bytes).
+c/amsfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmss8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+si10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+<C:/Users/chanlynd/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/marvosym/marvosym.pfb>
+Output written on cv_lyndon.pdf (2 pages, 144237 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
+ 84 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

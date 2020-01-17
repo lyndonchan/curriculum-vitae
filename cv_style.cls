@@ -67,9 +67,13 @@
 % so that you don't have to keep typing in \textbf{your name} for every paper you cite. 
 
 \newcommand{\desc}[4]{\noindent\textbf{#1} \hfill{#2}\\
-\begin{footnotesize}
+\begin{normalsize}
 	\textcolor{gray!90}{\textit{#3}\hfill {#4}}
-\end{footnotesize}\\}
+\end{normalsize}\\}
 
+\newcommand{\workplace}[2]{\noindent\textbf{#1} \hfill{#2}\\}
 
-
+\newcommand{\position}[2]{
+\begin{normalsize}
+	\textcolor{gray!90}{\textit{#1}\hfill {#2}}
+\end{normalsize}\\}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  17 JAN 2020 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  20 FEB 2020 13:47
 entering extended mode
 **./resume_lyndon.tex
 (resume_lyndon.tex
@@ -513,7 +513,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
 Here is how much of TeX's memory you used:
  16302 strings out of 493333
  298681 string characters out of 3139188
- 362942 words of memory out of 3000000
+ 362957 words of memory out of 3000000
  19595 multiletter control sequences out of 15000+200000
  9150 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -525,7 +525,7 @@ nts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/marvosym/marvosym.pfb>
-Output written on resume_lyndon.pdf (2 pages, 105056 bytes).
+Output written on resume_lyndon.pdf (2 pages, 105044 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)

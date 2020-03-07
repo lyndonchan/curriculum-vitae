@@ -11,7 +11,11 @@
 \RequirePackage{hyperref}
 
 %% Define margins (LRTB)
-\marginsize{0.75in}{0.75in}{0in}{1in}
+\marginsize{0.5in}{0.5in}{0in}{0.5in}
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
 
 \pagestyle{plain} 
 
@@ -40,22 +44,37 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%  SECTION TEMPLATES                              %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\info}[5]
+\newcommand{\info}[6]
 {\centering{
-\titlefont{\uppercase{{#1}}}\\ \bigskip
-\normalfont{\Telefon \ {#2} (mobile)\, $|$ \, \Letter \ \href{mailto:{#3}}{{#3}}}}\\
-\Mundus \ \url{{#4}}\, $|$ \, \faGithub \ \url{{#5}}\\
+\textbf{\titlefont{{#1}}}\\ \bigskip
+\begin{normalsize}
+	\textcolor{gray!90}{
+	\normalfont{\faHome \ {#2}\, $|$ \, \Telefon \ {#3} \, $|$ \, \Letter \ \href{mailto:{#4}}{{#4}}}\\
+	\Mundus \ \url{{#5}}\, $|$ \, \faGithub \ \url{{#6}}}\\
+\end{normalsize}
+}
 \sectionrule
 }
 
 \newcommand{\sectionheading}[1]{
-\begin{tcolorbox}[lowerbox=invisible,colback=gray!20]
+\begin{tcolorbox}[lowerbox=invisible,colback=gray!20,boxrule=0pt,arc=0pt,outer arc=0pt]
 {
-\textsf{\textsc{#1}}
+%\begin{center}
+	{{#1}}
+%\end{center}
 }
 \end{tcolorbox}
 \vspace{-1mm}
 }
+
+%\newcommand{\sectionheading}[1]{
+%\begin{center}
+	%\textbf{{#1}}
+%\end{center}
+%\noindent\vskip-20pt%
+  %{\tikz \calligraphy [copperplate] (0,0) -- ++(\textwidth,0) [this stroke style={light,taper=both}];}
+%}
+
 \newcommand{\subsectionheading}[1]{\noindent {\sc{#1}} 
 \\
 }

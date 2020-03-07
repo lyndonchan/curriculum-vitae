@@ -1,63 +1,70 @@
-\documentclass[12pt]{cv_style}
+\documentclass[letterpaper, 12pt]{cv_style}
 \usepackage{marvosym}
 \usepackage{xcolor}
 \usepackage{tcolorbox}
 \usepackage{fontawesome}
+\usepackage{tikz}
 \renewcommand{\familydefault}{\sfdefault}
+\usetikzlibrary{calligraphy}
 
 \begin{document}
 
-\font\titlefont=cmss12 at 36pt
+\font\titlefont=cmss12 at 30pt
 
 %% Personal Information %%
-\info{Lyndon Chan}{647-330-1294}{lyndon.chan@mail.utoronto.ca}{lyndonchan.github.io}{github.com/lyndonchan}
+\info{Lyndon Chan}{Markham, Ontario, Canada}{647-330-1294}{lyndon.chan@mail.utoronto.ca}{lyndonchan.github.io}{github.com/lyndonchan}
+
+%% Objective %%
+%Dedicated, experienced, and accomplished MASc  machine learning researcher with three years of academic research experience and one year of professional experience. Searching for full-time work or internship starting now.
 
 %% Interests / Skills%%
-\sectionheading{Interests and Skills}
+\sectionheading{Skills and Expertise}
 \begin{ditem}
-	\item \textbf{Topics:} Machine Learning, Computer Vision, Abnormality Detection, Weakly-Supervised Semantic Segmentation (WSSS), Computational Pathology
+	\item \textbf{Expertise:} Machine Learning (neural networks, SVM), Computer Vision (classification, detection, segmentation, multi-view geometry), Abnormality Detection, Convex Optimization
 	\item \textbf{Programming:} Python (Keras, TensorFlow, Caffe), MATLAB, C/C++, Java, Ruby, R
-	\item \textbf{Software:} \LaTeX, Jupyter Notebook, NumPy, Scikit-learn, Pandas, Matplotlib, SQLite
+	\item \textbf{Software:} \LaTeX, Jupyter Notebook, GitHub, NumPy, Scikit-learn, Pandas, Matplotlib, SQLite
 	\item \textbf{Languages:} English (native), Cantonese (fluent), Mandarin (conversational)
 \end{ditem}
 
 %% Education %%
 \sectionheading{Education}
-\flushleft\desc{M.A.Sc., Electrical Engineering}{2017-present (Jun. 2020 graduation)}{University of Toronto}{Toronto, Ontario, CANADA}
+\flushleft\desc{University of Toronto}{Toronto, Ontario, Canada}{M.A.Sc. in Electrical Engineering}{2017-2020}
 \medspace
-\textsc{Courses:} Foundations of Computer Vision (CSC2503H), Random Processes (ECE537H1), Signal Processing (ECE1512H), Convex Optimization (ECE1505H), Object Modelling and Recognition (CSC2523H)\\
+\textsc{Coursework:} computer vision (projective geometry, motion analysis), probability theory, signal processing (linear filtering, spectral analysis), optimization theory (linear programming)\\
 \medspace
-\desc{B.A.Sc., Electrical Engineering (GPA 3.64 / 4.0, 17th of 129)}{2012-2017}{University of Toronto}{Toronto, Ontario, CANADA}
+\desc{University of Toronto}{Toronto, Ontario, Canada}{B.A.Sc. in Electrical Engineering (GPA 3.64 / 4.0, 17th of 129)}{2012-2017}
 \medspace
-\textsc{Focus Areas:} "Control, Communications \& Signal Processing", "Analog \& Digital Electronics", "Software"
+\textsc{Coursework:} machine learning (regression, neural networks, Bayesian models), operating systems, image processing, electronics
 \medspace
 
 %% Experience %%
 \sectionheading{Work Experience}
-\workplace{University of Toronto (Multimedia Lab)}{Toronto, Ontario, CANADA}
-\position{Master's Student Research Assistant}{Sep. 2017-present}
+\workplace{University of Toronto (Multimedia Lab)}{Toronto, Ontario, Canada}
+\position{Master's Student Research Assistant}{Sep 2017-present}
 \begin{ditem}
-	\item Developed WSSS/anomaly detection, compiled image dataset, mathematical derivation of CNNs\\
-	\item Administered lab research meetings, served as CVPR2020 student reviewer\\
-	\item Served as head TA for undergraduate course (ECE462: Multimedia Systems) and graduate course (ECE1512: Digital Image Processing and Applications)\\
+	\item Developed novel semantic segmentation algorithm, compiled image dataset for computational pathology tool with Huron Digital Pathology - yielding Canadian patent, two conference papers
+	\item Advised development of anomaly detection tool for industrial images with LG Science Park\\
+	%\item Compiled mathematical study of backpropagation in neural networks\\
+	\item Served as head TA for an undergraduate and graduate course, student reviewer for CVPR 2020\\
 \end{ditem}
 %
-\position{Undergraduate Student Research Assistant}{May 2017-Aug. 2017}
+\workplace{University of Toronto (Multimedia Lab)}{Toronto, Ontario, Canada}
+\position{Undergraduate Student Research Assistant}{May 2017-Aug 2017}
 \medspace
-Designed novel classification network with fixed maximally-polynomial kernels\\
+Designed novel image classification network with fixed maximally-polynomial kernels, optimized for efficient training on limited pathology images - resulting in a conference paper submission\\
 \medspace
 %
 
-\workplace{Qualcomm Canada}{Markham, Ontario, CANADA}
-\position{Interim Engineering Intern}{May 2015-Aug. 2016}
+\workplace{Qualcomm Canada}{Markham, Ontario, Canada}
+\position{Interim Engineering Intern}{May 2015-Aug 2016}
 \medspace
-Built testing frameworks for image/video processing and compression; performed subjective image quality assessment; operated camera calibration lab; competed in two internal hackathons\\
+Built testing frameworks for image/video processing, cadence detection, optical flow, and compression; operated image quality assessment and camera calibration lab; competed in two internal hackathons\\
 \medspace
 %
-\workplace{Hong Kong University of Science and Technology (Human Language Technology Centre)}{\\Clear Water Bay, New Territories, HONG KONG}
-\position{Undergraduate Visiting Research Intern}{Jun.-Aug. 2014}
+\workplace{Hong Kong University of Science and Technology (Human Language Technology Centre)}{\\Clear Water Bay, Hong Kong}
+\position{Undergraduate Visiting Research Intern}{Jun 2014-Aug 2014}
 \medspace
-OKCupid user personality clustering by nationality, song popularity prediction on Sina Weibo\\
+Developed web scraping bot from scratch, conducted unsupervised clustering of OKCupid users by country, predicted song popularity from social media posts on Sina Weibo\\
 \medspace
 
 %% Publications %%

@@ -20,9 +20,9 @@
 %% Interests / Skills%%
 \sectionheading{Skills and Expertise}
 \begin{ditem}
-	\item \textbf{Expertise:} Machine Learning (neural networks, SVM, abnormality detection), Computer Vision (classification, detection, segmentation, multi-view geometry), NLP (search engine, entity extraction)
+	\item \textbf{Expertise:} Machine Learning (neural networks, SVM), Computer Vision (classification, detection, segmentation, multi-view geometry), Abnormality Detection, Convex Optimization
 	\item \textbf{Programming:} Python (Keras, TensorFlow, Caffe), MATLAB, C/C++, Java, Ruby, R
-	\item \textbf{Software:} \LaTeX, Jupyter Notebook, GitHub, NumPy, Scikit-learn, Pandas, SQLite, Spark/AWS (learning)
+	\item \textbf{Software:} \LaTeX, Jupyter Notebook, GitHub, NumPy, Scikit-learn, Pandas, Matplotlib, SQLite, Spark/AWS (in progress)
 	\item \textbf{Languages:} English (native), Cantonese (fluent), Mandarin (conversational)
 \end{ditem}
 

@@ -1,56 +1,57 @@
-LYNDON CHAN
+Lyndon Chan
+City: Markham, Ontario, Canada
 Telephone: 647-330-1294 (mobile)
 Email: lyndon.chan@mail.utoronto.ca
 Website: lyndonchan.github.io
 Github: github.com/lyndonchan
 
-Interests and Skills
-- Topics: Machine Learning, Computer Vision, Abnormality Detection, Weakly-Supervised Segmantic Segmentation (WSSS), Computational Pathology
-- Programming: Python (Keras, TensorFlow, Caffe), MATLAB, C/C++, Java, Ruby, R
-- Software: LATEX, Jupyter Notebook, Windows Shell, Wiki Markup
+Expertise and Skills
+- Expertise: Machine Learning (neural networks, SVM, abnormality detection), Computer Vision (classification, detection, segmentation, multi-view geometry), NLP (search engine, entity extraction)
+- Programming: Python (Keras, TensorFlow, PyTorch, Caffe), MATLAB, C/C++, Java, Ruby, R
+- Software: LaTeX, Jupyter Notebook, GitHub, NumPy, Scikit-learn, Pandas, SQLite, Spark/AWS (learning)
 - Languages: English (native), Cantonese (fluent), Mandarin (conversational)
 
 Education
 M.A.Sc., Electrical Engineering
-2017-present (Jun. 2020 graduation)
+2017-2020
 University of Toronto
-Toronto, Ontario, CANADA
-Courses: Foundations of Computer Vision (CSC2503H), Random Processes (ECE537H1), Signal Processing (ECE1512H), Convex Optimization (ECE1505H), Object Modelling and Recognition (CSC2523H)
+Toronto, Ontario, Canada
+Coursework: computer vision (projective geometry, motion analysis), probability theory, signal processing (linear filtering, spectral analysis), optimization theory (linear programming)
 
 B.A.Sc., Electrical Engineering
 2012-2017
 University of Toronto
-Toronto, Ontario, CANADA
+Toronto, Ontario, Canada
 GPA 3.64 / 4.0, 17th of 129
-Focus Areas: "Control, Communications & Signal Processing", "Analog & Digital Electronics", "Software"
+Coursework: machine learning (regression, neural networks, Bayesian models), operating systems, image processing, electronics
 
 Work Experience
 
 University of Toronto (Multimedia Lab)
-Toronto, Ontario, CANADA
+Toronto, Ontario, Canada
 Master's Student Research Assistant
-Sep. 2017-present
-- Developed WSSS method, compiled image dataset, mathematical derivation of CNNs
-- Administered lab research meetings, served as CVPR2020 student reviewer
-- Served as head lab TA for undergraduate-level course on image processing and compression (ECE462: Multimedia Systems) and graduate-level course on CNN classification (ECE1512: Digital Image Processing and Applications)
+Sep 2017-present
+- Developed novel semantic segmentation algorithm, compiled image dataset for computational pathology tool with Huron Digital Pathology - yielding Canadian patent, two conference papers
+- Advised development of anomaly detection tool for industrial images with LG Science Park
+- Served as head TA for an undergraduate and graduate course, student reviewer for CVPR 2020
 
 University of Toronto (Multimedia Lab)
-Toronto, Ontario, CANADA
+Toronto, Ontario, Canada
 Undergraduate Student Research Assistant
-May 2017-Aug. 2017
-Designed novel classification network with fixed maximally-polynomial kernels
+May 2017-Aug 2017
+Designed novel image classification network with fixed maximally-polynomial kernels, optimized for efficient training on limited pathology images - resulting in a conference paper submission
 
 Qualcomm Canada
-Markham, Ontario, CANADA
+Markham, Ontario, Canada
 Interim Engineering Intern
-May 2015-Aug. 2016
-Built testing frameworks for image/video processing and compression; performed subjective image quality assessment; operated camera calibration lab; competed in two internal hackathons
+May 2015-Aug 2016
+Built unit/functional test frameworks for embedded image/video processing algorithms, reducing test turnaround; operated image quality assessment, camera calibration labs; competed in two internal hackathons
 
 Hong Kong University of Science and Technology (Human Language Technology Centre)
 Clear Water Bay, New Territories, HONG KONG
 Undergraduate Visiting Research Intern
-Jun.-Aug. 2014
-OKCupid user personality clustering by nationality, song popularity prediction on Sina Weibo
+Jun 2014-Aug 2014
+Developed web scraping bot from scratch, conducted unsupervised clustering of OKCupid users by country, predicted song popularity from social media posts on Sina Weibo
 
 Publications
 Journal Papers
